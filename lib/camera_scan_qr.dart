@@ -139,11 +139,7 @@ class CameraScanQrController {
     _cameraScanQrPlatformController.start();
   }
 
-  void pause() {
-    _cameraScanQrPlatformController.pause();
-  }
-
-  void resume() {
-    _cameraScanQrPlatformController.resume();
+  void stop() {
+    _cameraScanQrPlatformController.stop();
   }
 }

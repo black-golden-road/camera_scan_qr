@@ -9,7 +9,5 @@ abstract class CameraScanQrPlatformController {
 
   Future<void> start();
 
-  Future<void> pause();
-
-  Future<void> resume();
+  Future<void> stop();
 }

@@ -47,12 +47,7 @@ class MethodChannelCameraScanQrPlatform
   }
 
   @override
-  Future<void> pause() async {
-    _channel.invokeMethod<Map>('pause');
-  }
-
-  @override
-  Future<void> resume() async {
-    _channel.invokeMethod<Map>('resume');
+  Future<void> stop() async {
+    _channel.invokeMethod<Map>('stop');
   }
 }
